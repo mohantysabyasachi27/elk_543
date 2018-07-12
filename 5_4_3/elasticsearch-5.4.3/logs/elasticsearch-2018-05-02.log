@@ -1,0 +1,233 @@
+[2018-05-02T15:35:24,233][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-02T15:35:24,343][INFO ][o.e.e.NodeEnvironment    ] [ZVh-zBT] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [356gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-02T15:35:24,344][INFO ][o.e.e.NodeEnvironment    ] [ZVh-zBT] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-02T15:35:24,346][INFO ][o.e.n.Node               ] node name [ZVh-zBT] derived from node ID [ZVh-zBTCQX6faUSXIwG3EA]; set [node.name] to override
+[2018-05-02T15:35:24,347][INFO ][o.e.n.Node               ] version[5.4.3], pid[78547], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-02T15:35:24,347][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-02T15:35:25,748][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [aggs-matrix-stats]
+[2018-05-02T15:35:25,748][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [ingest-common]
+[2018-05-02T15:35:25,749][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [lang-expression]
+[2018-05-02T15:35:25,749][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [lang-groovy]
+[2018-05-02T15:35:25,749][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [lang-mustache]
+[2018-05-02T15:35:25,749][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [lang-painless]
+[2018-05-02T15:35:25,750][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [percolator]
+[2018-05-02T15:35:25,750][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [reindex]
+[2018-05-02T15:35:25,750][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [transport-netty3]
+[2018-05-02T15:35:25,751][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] loaded module [transport-netty4]
+[2018-05-02T15:35:25,751][INFO ][o.e.p.PluginsService     ] [ZVh-zBT] no plugins loaded
+[2018-05-02T15:35:28,246][INFO ][o.e.d.DiscoveryModule    ] [ZVh-zBT] using discovery type [zen]
+[2018-05-02T15:35:29,085][INFO ][o.e.n.Node               ] initialized
+[2018-05-02T15:35:29,086][INFO ][o.e.n.Node               ] [ZVh-zBT] starting ...
+[2018-05-02T15:35:29,484][INFO ][o.e.t.TransportService   ] [ZVh-zBT] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-02T15:35:32,566][INFO ][o.e.c.s.ClusterService   ] [ZVh-zBT] new_master {ZVh-zBT}{ZVh-zBTCQX6faUSXIwG3EA}{_wodDt96RoiLDjJTxricyw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-02T15:35:32,619][INFO ][o.e.h.n.Netty4HttpServerTransport] [ZVh-zBT] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-02T15:35:32,625][INFO ][o.e.n.Node               ] [ZVh-zBT] started
+[2018-05-02T15:35:32,628][INFO ][o.e.g.GatewayService     ] [ZVh-zBT] recovered [0] indices into cluster_state
+[2018-05-02T15:35:40,213][INFO ][o.e.c.m.MetaDataCreateIndexService] [ZVh-zBT] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-05-02T15:36:16,969][INFO ][o.e.c.m.MetaDataCreateIndexService] [ZVh-zBT] [logstash-2018.05.02] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-02T15:36:17,132][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [ZVh-zBT] failed to put mappings on indices [[[logstash-2018.05.02/46QXyauCSJeYa6K9RCW1qg]]], type [["log", "SENT_MSG"]]
+org.elasticsearch.indices.InvalidTypeNameException: mapping type name [["log", "SENT_MSG"]] should not include ',' in it
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:369) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:334) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:266) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:633) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:611) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:570) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService$ClusterServiceTaskBatcher.run(ClusterService.java:262) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:569) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-02T15:36:17,142][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [ZVh-zBT] failed to put mappings on indices [[[logstash-2018.05.02/46QXyauCSJeYa6K9RCW1qg]]], type [["log", "SENT_MSG"]]
+org.elasticsearch.indices.InvalidTypeNameException: mapping type name [["log", "SENT_MSG"]] should not include ',' in it
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:369) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:334) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:266) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:633) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:611) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:570) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService$ClusterServiceTaskBatcher.run(ClusterService.java:262) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:569) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-02T15:50:23,903][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [ZVh-zBT] failed to put mappings on indices [[[logstash-2018.05.02/46QXyauCSJeYa6K9RCW1qg]]], type [["log", "END"]]
+org.elasticsearch.indices.InvalidTypeNameException: mapping type name [["log", "END"]] should not include ',' in it
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:369) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:334) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:266) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:633) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:611) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:570) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService$ClusterServiceTaskBatcher.run(ClusterService.java:262) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:569) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-02T15:50:57,868][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [ZVh-zBT] failed to put mappings on indices [[[logstash-2018.05.02/46QXyauCSJeYa6K9RCW1qg]]], type [["log", "START"]]
+org.elasticsearch.indices.InvalidTypeNameException: mapping type name [["log", "START"]] should not include ',' in it
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:369) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:334) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:266) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:633) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:611) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:570) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService$ClusterServiceTaskBatcher.run(ClusterService.java:262) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:569) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-02T15:50:57,876][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [ZVh-zBT] failed to put mappings on indices [[[logstash-2018.05.02/46QXyauCSJeYa6K9RCW1qg]]], type [["log", "end"]]
+org.elasticsearch.indices.InvalidTypeNameException: mapping type name [["log", "end"]] should not include ',' in it
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:369) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:334) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:266) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:633) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:611) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:570) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.ClusterService$ClusterServiceTaskBatcher.run(ClusterService.java:262) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:569) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-02T15:58:39,121][INFO ][o.e.c.m.MetaDataMappingService] [ZVh-zBT] [logstash-2018.05.02/46QXyauCSJeYa6K9RCW1qg] create_mapping [log]
+[2018-05-02T15:59:35,556][INFO ][o.e.c.m.MetaDataMappingService] [ZVh-zBT] [.kibana/J6tQECKcQNOq-NCOmIGtkA] create_mapping [index-pattern]
+[2018-05-02T15:59:36,318][INFO ][o.e.c.m.MetaDataMappingService] [ZVh-zBT] [.kibana/J6tQECKcQNOq-NCOmIGtkA] update_mapping [config]
+[2018-05-02T15:59:40,316][INFO ][o.e.c.m.MetaDataMappingService] [ZVh-zBT] [.kibana/J6tQECKcQNOq-NCOmIGtkA] create_mapping [search]
+[2018-05-02T16:00:01,176][INFO ][o.e.c.m.MetaDataMappingService] [ZVh-zBT] [.kibana/J6tQECKcQNOq-NCOmIGtkA] update_mapping [config]
+[2018-05-02T16:05:19,246][INFO ][o.e.c.m.MetaDataMappingService] [ZVh-zBT] [logstash-2018.05.02/46QXyauCSJeYa6K9RCW1qg] update_mapping [log]
+[2018-05-02T16:06:11,937][INFO ][o.e.n.Node               ] [ZVh-zBT] stopping ...
+[2018-05-02T16:06:11,993][INFO ][o.e.n.Node               ] [ZVh-zBT] stopped
+[2018-05-02T16:06:11,993][INFO ][o.e.n.Node               ] [ZVh-zBT] closing ...
+[2018-05-02T16:06:12,018][INFO ][o.e.n.Node               ] [ZVh-zBT] closed
+[2018-05-02T16:06:30,264][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-02T16:06:30,376][INFO ][o.e.e.NodeEnvironment    ] [sFpzYOg] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [355gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-02T16:06:30,377][INFO ][o.e.e.NodeEnvironment    ] [sFpzYOg] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-02T16:06:30,379][INFO ][o.e.n.Node               ] node name [sFpzYOg] derived from node ID [sFpzYOg0T4uIOjhLn-DyeQ]; set [node.name] to override
+[2018-05-02T16:06:30,379][INFO ][o.e.n.Node               ] version[5.4.3], pid[80055], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-02T16:06:30,380][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-02T16:06:31,846][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [aggs-matrix-stats]
+[2018-05-02T16:06:31,847][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [ingest-common]
+[2018-05-02T16:06:31,847][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [lang-expression]
+[2018-05-02T16:06:31,847][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [lang-groovy]
+[2018-05-02T16:06:31,847][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [lang-mustache]
+[2018-05-02T16:06:31,847][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [lang-painless]
+[2018-05-02T16:06:31,848][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [percolator]
+[2018-05-02T16:06:31,848][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [reindex]
+[2018-05-02T16:06:31,848][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [transport-netty3]
+[2018-05-02T16:06:31,848][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [transport-netty4]
+[2018-05-02T16:06:31,849][INFO ][o.e.p.PluginsService     ] [sFpzYOg] no plugins loaded
+[2018-05-02T16:06:34,024][INFO ][o.e.d.DiscoveryModule    ] [sFpzYOg] using discovery type [zen]
+[2018-05-02T16:06:34,883][INFO ][o.e.n.Node               ] initialized
+[2018-05-02T16:06:34,884][INFO ][o.e.n.Node               ] [sFpzYOg] starting ...
+[2018-05-02T16:06:35,531][INFO ][o.e.t.TransportService   ] [sFpzYOg] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-02T16:06:38,614][INFO ][o.e.c.s.ClusterService   ] [sFpzYOg] new_master {sFpzYOg}{sFpzYOg0T4uIOjhLn-DyeQ}{nx1X5aUsSkGqptsK0G_yMw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-02T16:06:38,654][INFO ][o.e.g.GatewayService     ] [sFpzYOg] recovered [0] indices into cluster_state
+[2018-05-02T16:06:38,660][INFO ][o.e.h.n.Netty4HttpServerTransport] [sFpzYOg] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-02T16:06:38,664][INFO ][o.e.n.Node               ] [sFpzYOg] started
+[2018-05-02T16:06:45,559][INFO ][o.e.c.m.MetaDataCreateIndexService] [sFpzYOg] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-05-02T16:07:24,031][INFO ][o.e.c.m.MetaDataCreateIndexService] [sFpzYOg] [logstash-2018.05.02] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-02T16:07:24,162][INFO ][o.e.c.m.MetaDataMappingService] [sFpzYOg] [logstash-2018.05.02/vY8QqGO_QJCkyA03lBJEhQ] create_mapping [log]
+[2018-05-02T16:07:37,363][INFO ][o.e.c.m.MetaDataMappingService] [sFpzYOg] [.kibana/gSe9f3FKTSymQJB0un-Mtg] create_mapping [index-pattern]
+[2018-05-02T16:07:38,178][INFO ][o.e.c.m.MetaDataMappingService] [sFpzYOg] [.kibana/gSe9f3FKTSymQJB0un-Mtg] update_mapping [config]
+[2018-05-02T16:07:52,114][INFO ][o.e.c.m.MetaDataMappingService] [sFpzYOg] [.kibana/gSe9f3FKTSymQJB0un-Mtg] create_mapping [visualization]
+[2018-05-02T16:07:54,568][INFO ][o.e.c.m.MetaDataMappingService] [sFpzYOg] [.kibana/gSe9f3FKTSymQJB0un-Mtg] create_mapping [search]
+[2018-05-02T16:15:09,254][INFO ][o.e.c.m.MetaDataMappingService] [sFpzYOg] [logstash-2018.05.02/vY8QqGO_QJCkyA03lBJEhQ] update_mapping [log]
+[2018-05-02T16:17:39,157][INFO ][o.e.n.Node               ] [sFpzYOg] stopping ...
+[2018-05-02T16:17:39,209][INFO ][o.e.n.Node               ] [sFpzYOg] stopped
+[2018-05-02T16:17:39,210][INFO ][o.e.n.Node               ] [sFpzYOg] closing ...
+[2018-05-02T16:17:39,219][INFO ][o.e.n.Node               ] [sFpzYOg] closed
+[2018-05-02T16:18:10,555][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-02T16:18:10,654][INFO ][o.e.e.NodeEnvironment    ] [sFpzYOg] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [355gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-02T16:18:10,654][INFO ][o.e.e.NodeEnvironment    ] [sFpzYOg] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-02T16:18:10,684][INFO ][o.e.n.Node               ] node name [sFpzYOg] derived from node ID [sFpzYOg0T4uIOjhLn-DyeQ]; set [node.name] to override
+[2018-05-02T16:18:10,686][INFO ][o.e.n.Node               ] version[5.4.3], pid[80574], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-02T16:18:10,687][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-02T16:18:12,263][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [aggs-matrix-stats]
+[2018-05-02T16:18:12,263][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [ingest-common]
+[2018-05-02T16:18:12,263][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [lang-expression]
+[2018-05-02T16:18:12,264][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [lang-groovy]
+[2018-05-02T16:18:12,264][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [lang-mustache]
+[2018-05-02T16:18:12,264][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [lang-painless]
+[2018-05-02T16:18:12,265][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [percolator]
+[2018-05-02T16:18:12,265][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [reindex]
+[2018-05-02T16:18:12,265][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [transport-netty3]
+[2018-05-02T16:18:12,265][INFO ][o.e.p.PluginsService     ] [sFpzYOg] loaded module [transport-netty4]
+[2018-05-02T16:18:12,266][INFO ][o.e.p.PluginsService     ] [sFpzYOg] no plugins loaded
+[2018-05-02T16:18:14,167][INFO ][o.e.d.DiscoveryModule    ] [sFpzYOg] using discovery type [zen]
+[2018-05-02T16:18:15,149][INFO ][o.e.n.Node               ] initialized
+[2018-05-02T16:18:15,149][INFO ][o.e.n.Node               ] [sFpzYOg] starting ...
+[2018-05-02T16:18:15,614][INFO ][o.e.t.TransportService   ] [sFpzYOg] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-02T16:18:18,681][INFO ][o.e.c.s.ClusterService   ] [sFpzYOg] new_master {sFpzYOg}{sFpzYOg0T4uIOjhLn-DyeQ}{q-kGEy5CQgGfwX5ETy62RA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-02T16:18:18,714][INFO ][o.e.h.n.Netty4HttpServerTransport] [sFpzYOg] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-02T16:18:18,717][INFO ][o.e.n.Node               ] [sFpzYOg] started
+[2018-05-02T16:18:19,059][INFO ][o.e.g.GatewayService     ] [sFpzYOg] recovered [2] indices into cluster_state
+[2018-05-02T16:18:19,416][INFO ][o.e.c.r.a.AllocationService] [sFpzYOg] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2018.05.02][3], [.kibana][0]] ...]).
+[2018-05-02T16:58:00,300][INFO ][o.e.n.Node               ] [sFpzYOg] stopping ...
+[2018-05-02T16:58:00,362][INFO ][o.e.n.Node               ] [sFpzYOg] stopped
+[2018-05-02T16:58:00,363][INFO ][o.e.n.Node               ] [sFpzYOg] closing ...
+[2018-05-02T16:58:00,389][INFO ][o.e.n.Node               ] [sFpzYOg] closed
+[2018-05-02T16:58:21,982][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-02T16:58:22,109][INFO ][o.e.e.NodeEnvironment    ] [wNUFw0w] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [354gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-02T16:58:22,110][INFO ][o.e.e.NodeEnvironment    ] [wNUFw0w] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-02T16:58:22,112][INFO ][o.e.n.Node               ] node name [wNUFw0w] derived from node ID [wNUFw0wZRu2Xsp9JpX4U0Q]; set [node.name] to override
+[2018-05-02T16:58:22,113][INFO ][o.e.n.Node               ] version[5.4.3], pid[83025], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-02T16:58:22,114][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-02T16:58:24,713][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [aggs-matrix-stats]
+[2018-05-02T16:58:24,714][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [ingest-common]
+[2018-05-02T16:58:24,714][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [lang-expression]
+[2018-05-02T16:58:24,715][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [lang-groovy]
+[2018-05-02T16:58:24,715][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [lang-mustache]
+[2018-05-02T16:58:24,715][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [lang-painless]
+[2018-05-02T16:58:24,715][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [percolator]
+[2018-05-02T16:58:24,716][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [reindex]
+[2018-05-02T16:58:24,716][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [transport-netty3]
+[2018-05-02T16:58:24,716][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [transport-netty4]
+[2018-05-02T16:58:24,717][INFO ][o.e.p.PluginsService     ] [wNUFw0w] no plugins loaded
+[2018-05-02T16:58:27,688][INFO ][o.e.d.DiscoveryModule    ] [wNUFw0w] using discovery type [zen]
+[2018-05-02T16:58:28,564][INFO ][o.e.n.Node               ] initialized
+[2018-05-02T16:58:28,564][INFO ][o.e.n.Node               ] [wNUFw0w] starting ...
+[2018-05-02T16:58:28,880][INFO ][o.e.t.TransportService   ] [wNUFw0w] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-02T16:58:31,953][INFO ][o.e.c.s.ClusterService   ] [wNUFw0w] new_master {wNUFw0w}{wNUFw0wZRu2Xsp9JpX4U0Q}{qD0ZlfuTRumE4LwTgVTKRA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-02T16:58:31,984][INFO ][o.e.h.n.Netty4HttpServerTransport] [wNUFw0w] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-02T16:58:31,987][INFO ][o.e.n.Node               ] [wNUFw0w] started
+[2018-05-02T16:58:31,988][INFO ][o.e.g.GatewayService     ] [wNUFw0w] recovered [0] indices into cluster_state
+[2018-05-02T16:58:39,886][INFO ][o.e.c.m.MetaDataCreateIndexService] [wNUFw0w] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-05-02T17:16:30,566][INFO ][o.e.c.m.MetaDataCreateIndexService] [wNUFw0w] [logstash-2018.05.02] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-02T17:16:30,739][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-2018.05.02/ML4qOSHJR2Sf89HfpVxxXw] create_mapping [log]
+[2018-05-02T17:16:53,754][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [.kibana/1aMF9OzhSF6GcNZfXIZp5w] create_mapping [index-pattern]
+[2018-05-02T17:16:54,555][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [.kibana/1aMF9OzhSF6GcNZfXIZp5w] update_mapping [config]
+[2018-05-02T17:16:58,228][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [.kibana/1aMF9OzhSF6GcNZfXIZp5w] create_mapping [search]
+[2018-05-02T17:17:09,989][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [.kibana/1aMF9OzhSF6GcNZfXIZp5w] update_mapping [config]
+[2018-05-02T17:18:59,463][INFO ][o.e.m.j.JvmGcMonitorService] [wNUFw0w] [gc][1227] overhead, spent [407ms] collecting in the last [1s]
+[2018-05-02T17:32:28,515][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [.kibana/1aMF9OzhSF6GcNZfXIZp5w] create_mapping [visualization]

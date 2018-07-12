@@ -1,0 +1,67 @@
+2018-04-26T11:01:59+05:30 INFO Metrics logging every 30s
+2018-04-26T11:01:59+05:30 INFO Setup Beat: filebeat; Version: 5.4.3
+2018-04-26T11:01:59+05:30 INFO Loading template enabled. Reading template file: /Users/azuga/elk/5_4_3/filebeat-5.4.3-darwin-x86_64/filebeat.template.json
+2018-04-26T11:01:59+05:30 INFO Loading template enabled for Elasticsearch 2.x. Reading template file: /Users/azuga/elk/5_4_3/filebeat-5.4.3-darwin-x86_64/filebeat.template-es2x.json
+2018-04-26T11:01:59+05:30 INFO Loading template enabled for Elasticsearch 6.x. Reading template file: /Users/azuga/elk/5_4_3/filebeat-5.4.3-darwin-x86_64/filebeat.template-es6x.json
+2018-04-26T11:01:59+05:30 INFO Elasticsearch url: http://localhost:9200
+2018-04-26T11:01:59+05:30 INFO Activated elasticsearch as output plugin.
+2018-04-26T11:01:59+05:30 INFO Publisher name: Administrators-MacBook-Pro.local
+2018-04-26T11:01:59+05:30 INFO Flush Interval set to: 1s
+2018-04-26T11:01:59+05:30 INFO Max Bulk Size set to: 50
+2018-04-26T11:01:59+05:30 INFO filebeat start running.
+2018-04-26T11:01:59+05:30 INFO No registry file found under: /Users/azuga/elk/5_4_3/filebeat-5.4.3-darwin-x86_64/data/registry. Creating a new registry file.
+2018-04-26T11:01:59+05:30 INFO Loading registrar data from /Users/azuga/elk/5_4_3/filebeat-5.4.3-darwin-x86_64/data/registry
+2018-04-26T11:01:59+05:30 INFO States Loaded from registrar: 0
+2018-04-26T11:01:59+05:30 INFO Loading Prospectors: 1
+2018-04-26T11:01:59+05:30 INFO Start sending events to output
+2018-04-26T11:01:59+05:30 INFO Starting Registrar
+2018-04-26T11:01:59+05:30 INFO Prospector with previous states loaded: 0
+2018-04-26T11:01:59+05:30 INFO Starting spooler: spool_size: 2048; idle_timeout: 5s
+2018-04-26T11:01:59+05:30 INFO Starting prospector of type: log; id: 17005676086519951868 
+2018-04-26T11:01:59+05:30 INFO Loading and starting Prospectors completed. Enabled prospectors: 1
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/wifi-04-25-2018__15:23:11.618.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/fsck_hfs.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/system.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/wifi-04-25-2018__12:22:48.579.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/install.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/wifi-04-25-2018__12:30:17.107.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/wifi-04-25-2018__15:32:15.178.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/wifi-04-25-2018__16:23:54.859.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/wifi-04-26-2018__11:00:32.013.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/displaypolicyd.stdout.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/corecaptured.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/wifi.log
+2018-04-26T11:01:59+05:30 INFO Harvester started for file: /var/log/fsck_apfs.log
+2018-04-26T11:02:00+05:30 INFO Connected to Elasticsearch version 5.4.3
+2018-04-26T11:02:00+05:30 INFO Trying to load template for client: http://localhost:9200
+2018-04-26T11:02:00+05:30 INFO Elasticsearch template with name 'filebeat' loaded
+2018-04-26T11:02:29+05:30 INFO Non-zero metrics in the last 30s: filebeat.harvester.open_files=13 filebeat.harvester.running=13 filebeat.harvester.started=13 libbeat.es.call_count.PublishEvents=3813 libbeat.es.publish.read_bytes=1913233 libbeat.es.publish.write_bytes=85233046 libbeat.es.published_and_acked_events=190165 libbeat.publisher.published_events=191613 publish.events=190464 registrar.states.current=13 registrar.states.update=190464 registrar.writes=94
+2018-04-26T11:02:37+05:30 INFO Stopping filebeat
+2018-04-26T11:02:37+05:30 INFO Stopping Crawler
+2018-04-26T11:02:37+05:30 INFO Prospector outlet closed
+2018-04-26T11:02:37+05:30 INFO Stopping 1 prospectors
+2018-04-26T11:02:37+05:30 INFO Prospector outlet closed
+2018-04-26T11:02:37+05:30 INFO Prospector ticker stopped
+2018-04-26T11:02:37+05:30 INFO Prospector outlet closed
+2018-04-26T11:02:37+05:30 INFO Stopping Prospector: 17005676086519951868
+2018-04-26T11:02:37+05:30 INFO Prospector outlet closed
+2018-04-26T11:02:37+05:30 INFO Prospector channel stopped because beat is stopping.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/wifi-04-25-2018__12:30:17.107.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/displaypolicyd.stdout.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/wifi.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/system.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/wifi-04-26-2018__11:00:32.013.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/wifi-04-25-2018__15:23:11.618.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/fsck_hfs.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/fsck_apfs.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/wifi-04-25-2018__12:22:48.579.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/install.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/wifi-04-25-2018__15:32:15.178.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Reader was closed: /var/log/wifi-04-25-2018__16:23:54.859.log. Closing.
+2018-04-26T11:02:37+05:30 INFO Crawler stopped
+2018-04-26T11:02:37+05:30 INFO Stopping spooler
+2018-04-26T11:02:37+05:30 INFO Stopping Registrar
+2018-04-26T11:02:37+05:30 INFO Ending Registrar
+2018-04-26T11:02:37+05:30 INFO Total non-zero values:  filebeat.harvester.closed=13 filebeat.harvester.started=13 libbeat.es.call_count.PublishEvents=5116 libbeat.es.publish.read_bytes=2567215 libbeat.es.publish.write_bytes=111482686 libbeat.es.published_and_acked_events=255251 libbeat.publisher.published_events=257149 publish.events=256000 registrar.states.current=13 registrar.states.update=256000 registrar.writes=127
+2018-04-26T11:02:37+05:30 INFO Uptime: 38.040754s
+2018-04-26T11:02:37+05:30 INFO filebeat stopped.

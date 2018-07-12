@@ -1,0 +1,38 @@
+[2018-05-07T15:23:01,325][INFO ][o.e.c.m.MetaDataCreateIndexService] [dt-k_Kp] [logstash-2018.05.07] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-07T15:23:01,735][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [logstash-2018.05.07/3WZ8Khb3Tbu7q_YCd3J79w] create_mapping [log]
+[2018-05-07T15:24:51,658][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [.kibana/IXvg45wQQbOFMAkBEURhvw] create_mapping [dashboard]
+[2018-05-07T15:25:23,196][INFO ][o.e.n.Node               ] [dt-k_Kp] stopping ...
+[2018-05-07T15:25:23,363][INFO ][o.e.n.Node               ] [dt-k_Kp] stopped
+[2018-05-07T15:25:23,363][INFO ][o.e.n.Node               ] [dt-k_Kp] closing ...
+[2018-05-07T15:25:23,399][INFO ][o.e.n.Node               ] [dt-k_Kp] closed
+[2018-05-07T15:25:41,613][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-07T15:25:41,742][INFO ][o.e.e.NodeEnvironment    ] [HLZDL6Y] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [354.3gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-07T15:25:41,743][INFO ][o.e.e.NodeEnvironment    ] [HLZDL6Y] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-07T15:25:41,745][INFO ][o.e.n.Node               ] node name [HLZDL6Y] derived from node ID [HLZDL6YETW6_zWqpR4ttGQ]; set [node.name] to override
+[2018-05-07T15:25:41,745][INFO ][o.e.n.Node               ] version[5.4.3], pid[21565], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-07T15:25:41,745][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-07T15:25:43,101][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [aggs-matrix-stats]
+[2018-05-07T15:25:43,101][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [ingest-common]
+[2018-05-07T15:25:43,102][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [lang-expression]
+[2018-05-07T15:25:43,102][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [lang-groovy]
+[2018-05-07T15:25:43,102][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [lang-mustache]
+[2018-05-07T15:25:43,102][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [lang-painless]
+[2018-05-07T15:25:43,103][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [percolator]
+[2018-05-07T15:25:43,103][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [reindex]
+[2018-05-07T15:25:43,103][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [transport-netty3]
+[2018-05-07T15:25:43,103][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] loaded module [transport-netty4]
+[2018-05-07T15:25:43,104][INFO ][o.e.p.PluginsService     ] [HLZDL6Y] no plugins loaded
+[2018-05-07T15:25:45,222][INFO ][o.e.d.DiscoveryModule    ] [HLZDL6Y] using discovery type [zen]
+[2018-05-07T15:25:46,186][INFO ][o.e.n.Node               ] initialized
+[2018-05-07T15:25:46,186][INFO ][o.e.n.Node               ] [HLZDL6Y] starting ...
+[2018-05-07T15:25:46,615][INFO ][o.e.t.TransportService   ] [HLZDL6Y] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-07T15:25:49,702][INFO ][o.e.c.s.ClusterService   ] [HLZDL6Y] new_master {HLZDL6Y}{HLZDL6YETW6_zWqpR4ttGQ}{qewOKOpnRnOZ7kC-4ECUGg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-07T15:25:49,788][INFO ][o.e.h.n.Netty4HttpServerTransport] [HLZDL6Y] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-07T15:25:49,792][INFO ][o.e.n.Node               ] [HLZDL6Y] started
+[2018-05-07T15:25:49,840][INFO ][o.e.g.GatewayService     ] [HLZDL6Y] recovered [0] indices into cluster_state
+[2018-05-07T15:25:55,445][INFO ][o.e.c.m.MetaDataCreateIndexService] [HLZDL6Y] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-05-07T15:26:36,207][INFO ][o.e.c.m.MetaDataCreateIndexService] [HLZDL6Y] [logstash-2018.05.07] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-07T15:26:36,312][INFO ][o.e.c.m.MetaDataMappingService] [HLZDL6Y] [logstash-2018.05.07/dmSvzRC0Spq2BVRnRSrHSg] create_mapping [log]
+[2018-05-07T15:27:01,933][INFO ][o.e.c.m.MetaDataMappingService] [HLZDL6Y] [.kibana/lJSv1M99Qm6an11ILEv7sA] create_mapping [index-pattern]
+[2018-05-07T15:27:02,306][INFO ][o.e.c.m.MetaDataMappingService] [HLZDL6Y] [.kibana/lJSv1M99Qm6an11ILEv7sA] update_mapping [config]
+[2018-05-07T15:27:09,937][INFO ][o.e.c.m.MetaDataMappingService] [HLZDL6Y] [.kibana/lJSv1M99Qm6an11ILEv7sA] create_mapping [search]

@@ -1,0 +1,2 @@
+[2018-05-29T15:17:39,888][INFO ][o.e.c.m.MetaDataCreateIndexService] [aDHE1zz] [logstash-2018.05.29] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-29T15:17:40,131][INFO ][o.e.c.m.MetaDataMappingService] [aDHE1zz] [logstash-2018.05.29/et6yRYdASIuGKTntkmmA-g] create_mapping [log]

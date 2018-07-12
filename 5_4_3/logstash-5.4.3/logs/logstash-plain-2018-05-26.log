@@ -1,0 +1,4 @@
+[2018-05-26T14:22:55,831][WARN ][logstash.runner          ] SIGHUP received.
+[2018-05-26T14:22:55,831][WARN ][logstash.runner          ] SIGHUP received.
+[2018-05-26T14:23:09,606][WARN ][logstash.runner          ] SIGTERM received. Shutting down the agent.
+[2018-05-26T14:23:09,633][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}

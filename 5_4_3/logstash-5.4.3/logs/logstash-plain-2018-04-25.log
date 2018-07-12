@@ -1,0 +1,17 @@
+[2018-04-25T18:32:38,351][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/Users/azuga/elk/5_4_3/logstash-5.4.3/data/queue"}
+[2018-04-25T18:54:35,430][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"bde79bfb-2fb7-42ce-b8a4-c1a541b6078b", :path=>"/Users/azuga/elk/5_4_3/logstash-5.4.3/data/uuid"}
+[2018-04-25T18:54:35,540][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Expected one of #, input, filter, output at line 1, column 1 (byte 1) after "}
+[2018-04-25T18:56:25,691][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Expected one of #, input, filter, output at line 1, column 1 (byte 1) after "}
+[2018-04-25T18:58:28,445][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Expected one of #, input, filter, output at line 1, column 1 (byte 1) after "}
+[2018-04-25T19:03:25,600][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Expected one of #, input, filter, output at line 1, column 1 (byte 1) after "}
+[2018-04-25T19:15:01,560][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2018-04-25T19:15:01,564][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2018-04-25T19:15:01,899][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>#<URI::HTTP:0x1df60d96 URL:http://localhost:9200/>}
+[2018-04-25T19:15:01,901][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-04-25T19:15:01,981][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword"}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-04-25T19:15:02,032][INFO ][logstash.outputs.elasticsearch] Installing elasticsearch template to _template/logstash
+[2018-04-25T19:15:02,324][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>[#<URI::Generic:0x2f6e5616 URL://localhost:9200>]}
+[2018-04-25T19:15:02,329][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2018-04-25T19:15:02,860][INFO ][logstash.inputs.beats    ] Beats inputs: Starting input listener {:address=>"0.0.0.0:5044"}
+[2018-04-25T19:15:02,907][INFO ][logstash.pipeline        ] Pipeline main started
+[2018-04-25T19:15:03,006][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}

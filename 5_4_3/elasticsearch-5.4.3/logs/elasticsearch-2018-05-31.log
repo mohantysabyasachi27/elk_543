@@ -1,0 +1,30 @@
+[2018-05-31T14:53:44,855][INFO ][o.e.n.Node               ] [aDHE1zz] stopping ...
+[2018-05-31T14:53:45,446][INFO ][o.e.n.Node               ] [aDHE1zz] stopped
+[2018-05-31T14:53:45,446][INFO ][o.e.n.Node               ] [aDHE1zz] closing ...
+[2018-05-31T14:53:45,600][INFO ][o.e.n.Node               ] [aDHE1zz] closed
+[2018-05-31T14:59:49,782][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-31T14:59:49,874][INFO ][o.e.e.NodeEnvironment    ] [aDHE1zz] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [352.7gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-31T14:59:49,875][INFO ][o.e.e.NodeEnvironment    ] [aDHE1zz] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-31T14:59:49,951][INFO ][o.e.n.Node               ] node name [aDHE1zz] derived from node ID [aDHE1zzeRLSUodK00vn5yQ]; set [node.name] to override
+[2018-05-31T14:59:49,952][INFO ][o.e.n.Node               ] version[5.4.3], pid[1516], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-31T14:59:49,952][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-31T14:59:51,248][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [aggs-matrix-stats]
+[2018-05-31T14:59:51,249][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [ingest-common]
+[2018-05-31T14:59:51,249][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [lang-expression]
+[2018-05-31T14:59:51,249][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [lang-groovy]
+[2018-05-31T14:59:51,250][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [lang-mustache]
+[2018-05-31T14:59:51,250][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [lang-painless]
+[2018-05-31T14:59:51,250][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [percolator]
+[2018-05-31T14:59:51,251][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [reindex]
+[2018-05-31T14:59:51,251][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [transport-netty3]
+[2018-05-31T14:59:51,251][INFO ][o.e.p.PluginsService     ] [aDHE1zz] loaded module [transport-netty4]
+[2018-05-31T14:59:51,252][INFO ][o.e.p.PluginsService     ] [aDHE1zz] no plugins loaded
+[2018-05-31T14:59:53,336][INFO ][o.e.d.DiscoveryModule    ] [aDHE1zz] using discovery type [zen]
+[2018-05-31T14:59:54,304][INFO ][o.e.n.Node               ] initialized
+[2018-05-31T14:59:54,305][INFO ][o.e.n.Node               ] [aDHE1zz] starting ...
+[2018-05-31T14:59:54,565][INFO ][o.e.t.TransportService   ] [aDHE1zz] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-31T14:59:57,666][INFO ][o.e.c.s.ClusterService   ] [aDHE1zz] new_master {aDHE1zz}{aDHE1zzeRLSUodK00vn5yQ}{QYYJmsb4QDKZ7qi3B1tbrQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-31T14:59:57,765][INFO ][o.e.h.n.Netty4HttpServerTransport] [aDHE1zz] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-31T14:59:57,769][INFO ][o.e.n.Node               ] [aDHE1zz] started
+[2018-05-31T14:59:58,148][INFO ][o.e.g.GatewayService     ] [aDHE1zz] recovered [6] indices into cluster_state
+[2018-05-31T14:59:59,487][INFO ][o.e.c.r.a.AllocationService] [aDHE1zz] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).

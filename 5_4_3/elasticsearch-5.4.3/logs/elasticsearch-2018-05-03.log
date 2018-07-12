@@ -1,0 +1,698 @@
+[2018-05-03T11:21:27,941][INFO ][o.e.n.Node               ] [wNUFw0w] stopping ...
+[2018-05-03T11:21:28,028][INFO ][o.e.n.Node               ] [wNUFw0w] stopped
+[2018-05-03T11:21:28,028][INFO ][o.e.n.Node               ] [wNUFw0w] closing ...
+[2018-05-03T11:21:28,065][INFO ][o.e.n.Node               ] [wNUFw0w] closed
+[2018-05-03T11:21:32,992][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-03T11:21:33,171][INFO ][o.e.e.NodeEnvironment    ] [wNUFw0w] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [353.9gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-03T11:21:33,172][INFO ][o.e.e.NodeEnvironment    ] [wNUFw0w] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-03T11:21:33,204][INFO ][o.e.n.Node               ] node name [wNUFw0w] derived from node ID [wNUFw0wZRu2Xsp9JpX4U0Q]; set [node.name] to override
+[2018-05-03T11:21:33,205][INFO ][o.e.n.Node               ] version[5.4.3], pid[85199], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-03T11:21:33,205][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-03T11:21:34,867][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [aggs-matrix-stats]
+[2018-05-03T11:21:34,867][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [ingest-common]
+[2018-05-03T11:21:34,867][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [lang-expression]
+[2018-05-03T11:21:34,867][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [lang-groovy]
+[2018-05-03T11:21:34,868][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [lang-mustache]
+[2018-05-03T11:21:34,868][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [lang-painless]
+[2018-05-03T11:21:34,868][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [percolator]
+[2018-05-03T11:21:34,868][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [reindex]
+[2018-05-03T11:21:34,869][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [transport-netty3]
+[2018-05-03T11:21:34,869][INFO ][o.e.p.PluginsService     ] [wNUFw0w] loaded module [transport-netty4]
+[2018-05-03T11:21:34,870][INFO ][o.e.p.PluginsService     ] [wNUFw0w] no plugins loaded
+[2018-05-03T11:21:37,208][INFO ][o.e.d.DiscoveryModule    ] [wNUFw0w] using discovery type [zen]
+[2018-05-03T11:21:38,172][INFO ][o.e.n.Node               ] initialized
+[2018-05-03T11:21:38,173][INFO ][o.e.n.Node               ] [wNUFw0w] starting ...
+[2018-05-03T11:21:38,612][INFO ][o.e.t.TransportService   ] [wNUFw0w] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-03T11:21:41,700][INFO ][o.e.c.s.ClusterService   ] [wNUFw0w] new_master {wNUFw0w}{wNUFw0wZRu2Xsp9JpX4U0Q}{JbiZ19esTni-Z4t13_EXug}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-03T11:21:41,728][INFO ][o.e.h.n.Netty4HttpServerTransport] [wNUFw0w] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-03T11:21:41,732][INFO ][o.e.n.Node               ] [wNUFw0w] started
+[2018-05-03T11:21:41,966][INFO ][o.e.g.GatewayService     ] [wNUFw0w] recovered [2] indices into cluster_state
+[2018-05-03T11:21:42,298][INFO ][o.e.c.r.a.AllocationService] [wNUFw0w] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0], [logstash-2018.05.02][4]] ...]).
+[2018-05-03T11:23:37,134][INFO ][o.e.c.m.MetaDataCreateIndexService] [wNUFw0w] [logstash-2018.05.03] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T11:23:37,260][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-2018.05.03/CCfCOwdXRrixZGEgJ6y2Lw] create_mapping [log]
+[2018-05-03T11:24:36,076][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-2018.05.03/CCfCOwdXRrixZGEgJ6y2Lw] update_mapping [log]
+[2018-05-03T11:25:28,657][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [.kibana/1aMF9OzhSF6GcNZfXIZp5w] create_mapping [dashboard]
+[2018-05-03T11:25:30,204][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [.kibana/1aMF9OzhSF6GcNZfXIZp5w] create_mapping [timelion-sheet]
+[2018-05-03T11:50:57,669][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-2018.05.02/ML4qOSHJR2Sf89HfpVxxXw] update_mapping [log]
+[2018-05-03T11:51:31,375][INFO ][o.e.c.m.MetaDataCreateIndexService] [wNUFw0w] [logstash-0018.05.02] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T11:51:31,482][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-0018.05.02/OJ38T0q3SuqKVF2bcshPFQ] create_mapping [log]
+[2018-05-03T12:25:03,160][INFO ][o.e.c.m.MetaDataCreateIndexService] [wNUFw0w] [logstash-2018.05.04] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T12:25:03,273][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-2018.05.04/q5Z1AX1KRjSbIZ7izNhySQ] create_mapping [log]
+[2018-05-03T12:27:53,466][INFO ][o.e.c.m.MetaDataCreateIndexService] [wNUFw0w] [logstash-2018.04.27] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T12:27:53,544][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-2018.05.04/q5Z1AX1KRjSbIZ7izNhySQ] update_mapping [log]
+[2018-05-03T12:27:53,585][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-2018.04.27/BchW-yhYQiy7ZAieWm__KQ] create_mapping [log]
+[2018-05-03T13:02:29,506][INFO ][o.e.c.m.MetaDataCreateIndexService] [wNUFw0w] [logstash-2018.05.05] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T13:02:29,663][INFO ][o.e.c.m.MetaDataMappingService] [wNUFw0w] [logstash-2018.05.05/6AXAxwMxTBGOY1yQIkRiQw] create_mapping [log]
+[2018-05-03T13:07:49,071][INFO ][o.e.n.Node               ] [wNUFw0w] stopping ...
+[2018-05-03T13:07:49,208][INFO ][o.e.n.Node               ] [wNUFw0w] stopped
+[2018-05-03T13:07:49,209][INFO ][o.e.n.Node               ] [wNUFw0w] closing ...
+[2018-05-03T13:07:49,231][INFO ][o.e.n.Node               ] [wNUFw0w] closed
+[2018-05-03T13:08:06,149][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-03T13:08:06,241][INFO ][o.e.e.NodeEnvironment    ] [TVWVMKk] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [353.9gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-03T13:08:06,241][INFO ][o.e.e.NodeEnvironment    ] [TVWVMKk] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-03T13:08:06,244][INFO ][o.e.n.Node               ] node name [TVWVMKk] derived from node ID [TVWVMKkgTlin91stGOLx8g]; set [node.name] to override
+[2018-05-03T13:08:06,245][INFO ][o.e.n.Node               ] version[5.4.3], pid[89172], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-03T13:08:06,245][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-03T13:08:07,733][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [aggs-matrix-stats]
+[2018-05-03T13:08:07,733][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [ingest-common]
+[2018-05-03T13:08:07,733][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [lang-expression]
+[2018-05-03T13:08:07,734][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [lang-groovy]
+[2018-05-03T13:08:07,734][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [lang-mustache]
+[2018-05-03T13:08:07,734][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [lang-painless]
+[2018-05-03T13:08:07,735][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [percolator]
+[2018-05-03T13:08:07,735][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [reindex]
+[2018-05-03T13:08:07,735][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [transport-netty3]
+[2018-05-03T13:08:07,735][INFO ][o.e.p.PluginsService     ] [TVWVMKk] loaded module [transport-netty4]
+[2018-05-03T13:08:07,736][INFO ][o.e.p.PluginsService     ] [TVWVMKk] no plugins loaded
+[2018-05-03T13:08:10,860][INFO ][o.e.d.DiscoveryModule    ] [TVWVMKk] using discovery type [zen]
+[2018-05-03T13:08:12,865][INFO ][o.e.n.Node               ] initialized
+[2018-05-03T13:08:12,866][INFO ][o.e.n.Node               ] [TVWVMKk] starting ...
+[2018-05-03T13:08:13,534][INFO ][o.e.t.TransportService   ] [TVWVMKk] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-03T13:08:16,672][INFO ][o.e.c.s.ClusterService   ] [TVWVMKk] new_master {TVWVMKk}{TVWVMKkgTlin91stGOLx8g}{iugfNb82SneHHGic0NzBuQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-03T13:08:16,705][INFO ][o.e.h.n.Netty4HttpServerTransport] [TVWVMKk] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-03T13:08:16,708][INFO ][o.e.n.Node               ] [TVWVMKk] started
+[2018-05-03T13:08:16,710][INFO ][o.e.g.GatewayService     ] [TVWVMKk] recovered [0] indices into cluster_state
+[2018-05-03T13:08:22,747][INFO ][o.e.c.m.MetaDataCreateIndexService] [TVWVMKk] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-05-03T13:09:09,433][INFO ][o.e.c.m.MetaDataCreateIndexService] [TVWVMKk] [logstash-2018.05.05] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T13:09:09,550][INFO ][o.e.c.m.MetaDataCreateIndexService] [TVWVMKk] [logstash-2018.05.03] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T13:09:09,809][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [logstash-2018.05.03/T3M8SyhzR7W_spTlhun64g] create_mapping [log]
+[2018-05-03T13:09:09,832][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [logstash-2018.05.05/gheVYNHvSTmpCe307s44lA] create_mapping [log]
+[2018-05-03T14:37:54,970][INFO ][o.e.c.m.MetaDataCreateIndexService] [TVWVMKk] [logstash-2018.05.04] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T14:37:55,145][INFO ][o.e.c.m.MetaDataCreateIndexService] [TVWVMKk] [logstash-2018.04.27] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T14:37:55,189][INFO ][o.e.c.m.MetaDataCreateIndexService] [TVWVMKk] [logstash-2018.05.02] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T14:37:55,290][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [logstash-2018.05.05/gheVYNHvSTmpCe307s44lA] update_mapping [log]
+[2018-05-03T14:37:55,300][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [logstash-2018.05.04/7nfe9kMzTJy9PhdHnwJTdg] create_mapping [log]
+[2018-05-03T14:37:55,406][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [logstash-2018.05.04/7nfe9kMzTJy9PhdHnwJTdg] update_mapping [log]
+[2018-05-03T14:37:55,591][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [logstash-2018.04.27/fStYec8rQf2cetQnuDNN4Q] create_mapping [log]
+[2018-05-03T14:37:55,601][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [logstash-2018.04.27/fStYec8rQf2cetQnuDNN4Q] update_mapping [log]
+[2018-05-03T14:37:55,683][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [logstash-2018.05.02/rGRzu1FHSd-IYf7D_nNp6w] create_mapping [log]
+[2018-05-03T14:38:35,456][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [.kibana/HXhvgF-2TgGyp9pruo35lA] create_mapping [index-pattern]
+[2018-05-03T14:38:35,807][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [.kibana/HXhvgF-2TgGyp9pruo35lA] update_mapping [config]
+[2018-05-03T14:38:38,242][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [.kibana/HXhvgF-2TgGyp9pruo35lA] create_mapping [search]
+[2018-05-03T14:39:23,259][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [.kibana/HXhvgF-2TgGyp9pruo35lA] create_mapping [visualization]
+[2018-05-03T14:40:19,252][DEBUG][o.e.a.s.TransportSearchAction] [TVWVMKk] [logstash-2018.05.03][1], node[TVWVMKkgTlin91stGOLx8g], [P], s[STARTED], a[id=RzwHYBRERK-5BoDdDndhJg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[logstash-*], indicesOptions=IndicesOptions[id=39, ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[], routing='null', preference='1525338506544', requestCache=null, scroll=null, source={
+  "size" : 0,
+  "query" : {
+    "bool" : {
+      "must" : [
+        {
+          "query_string" : {
+            "query" : "*",
+            "fields" : [ ],
+            "use_dis_max" : true,
+            "tie_breaker" : 0.0,
+            "default_operator" : "or",
+            "auto_generate_phrase_queries" : false,
+            "max_determinized_states" : 10000,
+            "enable_position_increments" : true,
+            "fuzziness" : "AUTO",
+            "fuzzy_prefix_length" : 0,
+            "fuzzy_max_expansions" : 50,
+            "phrase_slop" : 0,
+            "analyze_wildcard" : true,
+            "escape" : false,
+            "split_on_whitespace" : true,
+            "boost" : 1.0
+          }
+        },
+        {
+          "range" : {
+            "@timestamp" : {
+              "from" : 1524940200000,
+              "to" : 1525415400000,
+              "include_lower" : true,
+              "include_upper" : true,
+              "format" : "epoch_millis",
+              "boost" : 1.0
+            }
+          }
+        }
+      ],
+      "disable_coord" : false,
+      "adjust_pure_negative" : true,
+      "boost" : 1.0
+    }
+  },
+  "_source" : {
+    "includes" : [ ],
+    "excludes" : [ ]
+  },
+  "aggregations" : {
+    "1" : {
+      "top_hits" : {
+        "from" : 0,
+        "size" : 1,
+        "version" : false,
+        "explain" : false,
+        "_source" : {
+          "includes" : [
+            "elapsed_time"
+          ],
+          "excludes" : [ ]
+        },
+        "docvalue_fields" : [
+          "elapsed_time"
+        ],
+        "sort" : [
+          {
+            "tstamp" : {
+              "order" : "desc"
+            }
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [TVWVMKk][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: No mapping found for [tstamp] in order to sort on
+	at org.elasticsearch.search.sort.FieldSortBuilder.build(FieldSortBuilder.java:262) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.sort.SortBuilder.buildSort(SortBuilder.java:156) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:547) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:59) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:333) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:472) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:448) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:339) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:336) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-03T14:40:19,251][DEBUG][o.e.a.s.TransportSearchAction] [TVWVMKk] [logstash-2018.05.03][2], node[TVWVMKkgTlin91stGOLx8g], [P], s[STARTED], a[id=V9qpeQj7RhuLSu6u4GRVkA]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[logstash-*], indicesOptions=IndicesOptions[id=39, ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[], routing='null', preference='1525338506544', requestCache=null, scroll=null, source={
+  "size" : 0,
+  "query" : {
+    "bool" : {
+      "must" : [
+        {
+          "query_string" : {
+            "query" : "*",
+            "fields" : [ ],
+            "use_dis_max" : true,
+            "tie_breaker" : 0.0,
+            "default_operator" : "or",
+            "auto_generate_phrase_queries" : false,
+            "max_determinized_states" : 10000,
+            "enable_position_increments" : true,
+            "fuzziness" : "AUTO",
+            "fuzzy_prefix_length" : 0,
+            "fuzzy_max_expansions" : 50,
+            "phrase_slop" : 0,
+            "analyze_wildcard" : true,
+            "escape" : false,
+            "split_on_whitespace" : true,
+            "boost" : 1.0
+          }
+        },
+        {
+          "range" : {
+            "@timestamp" : {
+              "from" : 1524940200000,
+              "to" : 1525415400000,
+              "include_lower" : true,
+              "include_upper" : true,
+              "format" : "epoch_millis",
+              "boost" : 1.0
+            }
+          }
+        }
+      ],
+      "disable_coord" : false,
+      "adjust_pure_negative" : true,
+      "boost" : 1.0
+    }
+  },
+  "_source" : {
+    "includes" : [ ],
+    "excludes" : [ ]
+  },
+  "aggregations" : {
+    "1" : {
+      "top_hits" : {
+        "from" : 0,
+        "size" : 1,
+        "version" : false,
+        "explain" : false,
+        "_source" : {
+          "includes" : [
+            "elapsed_time"
+          ],
+          "excludes" : [ ]
+        },
+        "docvalue_fields" : [
+          "elapsed_time"
+        ],
+        "sort" : [
+          {
+            "tstamp" : {
+              "order" : "desc"
+            }
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [TVWVMKk][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: No mapping found for [tstamp] in order to sort on
+	at org.elasticsearch.search.sort.FieldSortBuilder.build(FieldSortBuilder.java:262) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.sort.SortBuilder.buildSort(SortBuilder.java:156) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:547) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:59) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:333) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:472) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:448) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:339) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:336) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-03T14:40:19,250][DEBUG][o.e.a.s.TransportSearchAction] [TVWVMKk] [logstash-2018.05.03][0], node[TVWVMKkgTlin91stGOLx8g], [P], s[STARTED], a[id=BFbjlek_TWeq451kAUyPWA]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[logstash-*], indicesOptions=IndicesOptions[id=39, ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[], routing='null', preference='1525338506544', requestCache=null, scroll=null, source={
+  "size" : 0,
+  "query" : {
+    "bool" : {
+      "must" : [
+        {
+          "query_string" : {
+            "query" : "*",
+            "fields" : [ ],
+            "use_dis_max" : true,
+            "tie_breaker" : 0.0,
+            "default_operator" : "or",
+            "auto_generate_phrase_queries" : false,
+            "max_determinized_states" : 10000,
+            "enable_position_increments" : true,
+            "fuzziness" : "AUTO",
+            "fuzzy_prefix_length" : 0,
+            "fuzzy_max_expansions" : 50,
+            "phrase_slop" : 0,
+            "analyze_wildcard" : true,
+            "escape" : false,
+            "split_on_whitespace" : true,
+            "boost" : 1.0
+          }
+        },
+        {
+          "range" : {
+            "@timestamp" : {
+              "from" : 1524940200000,
+              "to" : 1525415400000,
+              "include_lower" : true,
+              "include_upper" : true,
+              "format" : "epoch_millis",
+              "boost" : 1.0
+            }
+          }
+        }
+      ],
+      "disable_coord" : false,
+      "adjust_pure_negative" : true,
+      "boost" : 1.0
+    }
+  },
+  "_source" : {
+    "includes" : [ ],
+    "excludes" : [ ]
+  },
+  "aggregations" : {
+    "1" : {
+      "top_hits" : {
+        "from" : 0,
+        "size" : 1,
+        "version" : false,
+        "explain" : false,
+        "_source" : {
+          "includes" : [
+            "elapsed_time"
+          ],
+          "excludes" : [ ]
+        },
+        "docvalue_fields" : [
+          "elapsed_time"
+        ],
+        "sort" : [
+          {
+            "tstamp" : {
+              "order" : "desc"
+            }
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [TVWVMKk][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: No mapping found for [tstamp] in order to sort on
+	at org.elasticsearch.search.sort.FieldSortBuilder.build(FieldSortBuilder.java:262) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.sort.SortBuilder.buildSort(SortBuilder.java:156) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:547) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:59) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:333) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:472) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:448) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:339) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:336) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-03T14:40:19,251][DEBUG][o.e.a.s.TransportSearchAction] [TVWVMKk] [logstash-2018.05.03][3], node[TVWVMKkgTlin91stGOLx8g], [P], s[STARTED], a[id=jsRxllTdTb-W0nNH94IarA]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[logstash-*], indicesOptions=IndicesOptions[id=39, ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[], routing='null', preference='1525338506544', requestCache=null, scroll=null, source={
+  "size" : 0,
+  "query" : {
+    "bool" : {
+      "must" : [
+        {
+          "query_string" : {
+            "query" : "*",
+            "fields" : [ ],
+            "use_dis_max" : true,
+            "tie_breaker" : 0.0,
+            "default_operator" : "or",
+            "auto_generate_phrase_queries" : false,
+            "max_determinized_states" : 10000,
+            "enable_position_increments" : true,
+            "fuzziness" : "AUTO",
+            "fuzzy_prefix_length" : 0,
+            "fuzzy_max_expansions" : 50,
+            "phrase_slop" : 0,
+            "analyze_wildcard" : true,
+            "escape" : false,
+            "split_on_whitespace" : true,
+            "boost" : 1.0
+          }
+        },
+        {
+          "range" : {
+            "@timestamp" : {
+              "from" : 1524940200000,
+              "to" : 1525415400000,
+              "include_lower" : true,
+              "include_upper" : true,
+              "format" : "epoch_millis",
+              "boost" : 1.0
+            }
+          }
+        }
+      ],
+      "disable_coord" : false,
+      "adjust_pure_negative" : true,
+      "boost" : 1.0
+    }
+  },
+  "_source" : {
+    "includes" : [ ],
+    "excludes" : [ ]
+  },
+  "aggregations" : {
+    "1" : {
+      "top_hits" : {
+        "from" : 0,
+        "size" : 1,
+        "version" : false,
+        "explain" : false,
+        "_source" : {
+          "includes" : [
+            "elapsed_time"
+          ],
+          "excludes" : [ ]
+        },
+        "docvalue_fields" : [
+          "elapsed_time"
+        ],
+        "sort" : [
+          {
+            "tstamp" : {
+              "order" : "desc"
+            }
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [TVWVMKk][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: No mapping found for [tstamp] in order to sort on
+	at org.elasticsearch.search.sort.FieldSortBuilder.build(FieldSortBuilder.java:262) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.sort.SortBuilder.buildSort(SortBuilder.java:156) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:547) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:59) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:333) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:472) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:448) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:339) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:336) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-03T14:40:19,250][DEBUG][o.e.a.s.TransportSearchAction] [TVWVMKk] [logstash-2018.05.03][4], node[TVWVMKkgTlin91stGOLx8g], [P], s[STARTED], a[id=-KUWU7KxSRu68lcNlWWKGA]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[logstash-*], indicesOptions=IndicesOptions[id=39, ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[], routing='null', preference='1525338506544', requestCache=null, scroll=null, source={
+  "size" : 0,
+  "query" : {
+    "bool" : {
+      "must" : [
+        {
+          "query_string" : {
+            "query" : "*",
+            "fields" : [ ],
+            "use_dis_max" : true,
+            "tie_breaker" : 0.0,
+            "default_operator" : "or",
+            "auto_generate_phrase_queries" : false,
+            "max_determinized_states" : 10000,
+            "enable_position_increments" : true,
+            "fuzziness" : "AUTO",
+            "fuzzy_prefix_length" : 0,
+            "fuzzy_max_expansions" : 50,
+            "phrase_slop" : 0,
+            "analyze_wildcard" : true,
+            "escape" : false,
+            "split_on_whitespace" : true,
+            "boost" : 1.0
+          }
+        },
+        {
+          "range" : {
+            "@timestamp" : {
+              "from" : 1524940200000,
+              "to" : 1525415400000,
+              "include_lower" : true,
+              "include_upper" : true,
+              "format" : "epoch_millis",
+              "boost" : 1.0
+            }
+          }
+        }
+      ],
+      "disable_coord" : false,
+      "adjust_pure_negative" : true,
+      "boost" : 1.0
+    }
+  },
+  "_source" : {
+    "includes" : [ ],
+    "excludes" : [ ]
+  },
+  "aggregations" : {
+    "1" : {
+      "top_hits" : {
+        "from" : 0,
+        "size" : 1,
+        "version" : false,
+        "explain" : false,
+        "_source" : {
+          "includes" : [
+            "elapsed_time"
+          ],
+          "excludes" : [ ]
+        },
+        "docvalue_fields" : [
+          "elapsed_time"
+        ],
+        "sort" : [
+          {
+            "tstamp" : {
+              "order" : "desc"
+            }
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [TVWVMKk][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: No mapping found for [tstamp] in order to sort on
+	at org.elasticsearch.search.sort.FieldSortBuilder.build(FieldSortBuilder.java:262) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.sort.SortBuilder.buildSort(SortBuilder.java:156) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:547) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder.doBuild(TopHitsAggregationBuilder.java:59) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:333) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:472) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:448) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:339) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:336) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.3.jar:5.4.3]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.3.jar:5.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[2018-05-03T14:40:25,870][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [.kibana/HXhvgF-2TgGyp9pruo35lA] create_mapping [dashboard]
+[2018-05-03T14:43:18,942][INFO ][o.e.c.m.MetaDataMappingService] [TVWVMKk] [.kibana/HXhvgF-2TgGyp9pruo35lA] update_mapping [config]
+[2018-05-03T16:12:53,801][INFO ][o.e.n.Node               ] [TVWVMKk] stopping ...
+[2018-05-03T16:12:53,883][INFO ][o.e.n.Node               ] [TVWVMKk] stopped
+[2018-05-03T16:12:53,884][INFO ][o.e.n.Node               ] [TVWVMKk] closing ...
+[2018-05-03T16:12:53,919][INFO ][o.e.n.Node               ] [TVWVMKk] closed
+[2018-05-03T16:13:17,293][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-03T16:13:17,406][INFO ][o.e.e.NodeEnvironment    ] [aFxP6Lt] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [354gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-03T16:13:17,406][INFO ][o.e.e.NodeEnvironment    ] [aFxP6Lt] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-03T16:13:17,408][INFO ][o.e.n.Node               ] node name [aFxP6Lt] derived from node ID [aFxP6LtySmuTlUl8r1SHAQ]; set [node.name] to override
+[2018-05-03T16:13:17,409][INFO ][o.e.n.Node               ] version[5.4.3], pid[92769], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-03T16:13:17,409][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-03T16:13:18,866][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [aggs-matrix-stats]
+[2018-05-03T16:13:18,866][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [ingest-common]
+[2018-05-03T16:13:18,867][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [lang-expression]
+[2018-05-03T16:13:18,867][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [lang-groovy]
+[2018-05-03T16:13:18,867][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [lang-mustache]
+[2018-05-03T16:13:18,867][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [lang-painless]
+[2018-05-03T16:13:18,867][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [percolator]
+[2018-05-03T16:13:18,867][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [reindex]
+[2018-05-03T16:13:18,868][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [transport-netty3]
+[2018-05-03T16:13:18,868][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] loaded module [transport-netty4]
+[2018-05-03T16:13:18,869][INFO ][o.e.p.PluginsService     ] [aFxP6Lt] no plugins loaded
+[2018-05-03T16:13:20,858][INFO ][o.e.d.DiscoveryModule    ] [aFxP6Lt] using discovery type [zen]
+[2018-05-03T16:13:21,530][INFO ][o.e.n.Node               ] initialized
+[2018-05-03T16:13:21,530][INFO ][o.e.n.Node               ] [aFxP6Lt] starting ...
+[2018-05-03T16:13:21,895][INFO ][o.e.t.TransportService   ] [aFxP6Lt] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-03T16:13:24,947][INFO ][o.e.c.s.ClusterService   ] [aFxP6Lt] new_master {aFxP6Lt}{aFxP6LtySmuTlUl8r1SHAQ}{2C-ChmaBQji22MIRCM8Zsw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-03T16:13:24,978][INFO ][o.e.h.n.Netty4HttpServerTransport] [aFxP6Lt] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-03T16:13:24,980][INFO ][o.e.g.GatewayService     ] [aFxP6Lt] recovered [0] indices into cluster_state
+[2018-05-03T16:13:24,981][INFO ][o.e.n.Node               ] [aFxP6Lt] started
+[2018-05-03T16:13:32,289][INFO ][o.e.c.m.MetaDataCreateIndexService] [aFxP6Lt] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-05-03T16:26:50,896][INFO ][o.e.c.m.MetaDataCreateIndexService] [aFxP6Lt] [logstash-2018.05.02] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T16:26:51,291][INFO ][o.e.c.m.MetaDataCreateIndexService] [aFxP6Lt] [logstash-2018.04.27] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T16:26:51,471][INFO ][o.e.c.m.MetaDataMappingService] [aFxP6Lt] [logstash-2018.04.27/KUvKVoStQy2eiPA_6xc0vg] create_mapping [log]
+[2018-05-03T16:26:51,493][INFO ][o.e.c.m.MetaDataMappingService] [aFxP6Lt] [logstash-2018.05.02/Ns5FMVOpSvexwOz7c-ocpA] create_mapping [log]
+[2018-05-03T16:26:51,720][INFO ][o.e.c.m.MetaDataMappingService] [aFxP6Lt] [logstash-2018.04.27/KUvKVoStQy2eiPA_6xc0vg] update_mapping [log]
+[2018-05-03T16:26:51,902][INFO ][o.e.c.m.MetaDataMappingService] [aFxP6Lt] [logstash-2018.05.02/Ns5FMVOpSvexwOz7c-ocpA] update_mapping [log]
+[2018-05-03T16:26:52,126][INFO ][o.e.c.m.MetaDataCreateIndexService] [aFxP6Lt] [logstash-2018.05.04] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T16:26:52,299][INFO ][o.e.c.m.MetaDataCreateIndexService] [aFxP6Lt] [logstash-2018.05.05] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-05-03T16:26:52,545][INFO ][o.e.c.m.MetaDataMappingService] [aFxP6Lt] [logstash-2018.05.05/tRjO95rQTPO58PDoUkGhDg] create_mapping [log]
+[2018-05-03T16:26:52,562][INFO ][o.e.c.m.MetaDataMappingService] [aFxP6Lt] [logstash-2018.05.05/tRjO95rQTPO58PDoUkGhDg] update_mapping [log]
+[2018-05-03T16:26:52,671][INFO ][o.e.c.m.MetaDataMappingService] [aFxP6Lt] [logstash-2018.05.04/NwbtpbpKTU212yp4FB24pA] create_mapping [log]
+[2018-05-03T16:27:40,780][INFO ][o.e.c.m.MetaDataMappingService] [aFxP6Lt] [.kibana/tVv98PMqQCas_d4ODef-Mw] create_mapping [index-pattern]
+[2018-05-03T16:44:21,877][INFO ][o.e.n.Node               ] [aFxP6Lt] stopping ...
+[2018-05-03T16:44:21,991][INFO ][o.e.n.Node               ] [aFxP6Lt] stopped
+[2018-05-03T16:44:21,992][INFO ][o.e.n.Node               ] [aFxP6Lt] closing ...
+[2018-05-03T16:44:22,022][INFO ][o.e.n.Node               ] [aFxP6Lt] closed
+[2018-05-03T16:44:41,144][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-03T16:44:41,230][INFO ][o.e.e.NodeEnvironment    ] [9cMfB9A] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [354.4gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-03T16:44:41,231][INFO ][o.e.e.NodeEnvironment    ] [9cMfB9A] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-03T16:44:41,233][INFO ][o.e.n.Node               ] node name [9cMfB9A] derived from node ID [9cMfB9AgSaSXXGCVbpTZQA]; set [node.name] to override
+[2018-05-03T16:44:41,234][INFO ][o.e.n.Node               ] version[5.4.3], pid[93841], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-03T16:44:41,234][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-03T16:44:42,785][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [aggs-matrix-stats]
+[2018-05-03T16:44:42,785][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [ingest-common]
+[2018-05-03T16:44:42,786][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [lang-expression]
+[2018-05-03T16:44:42,786][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [lang-groovy]
+[2018-05-03T16:44:42,786][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [lang-mustache]
+[2018-05-03T16:44:42,786][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [lang-painless]
+[2018-05-03T16:44:42,786][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [percolator]
+[2018-05-03T16:44:42,787][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [reindex]
+[2018-05-03T16:44:42,787][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [transport-netty3]
+[2018-05-03T16:44:42,787][INFO ][o.e.p.PluginsService     ] [9cMfB9A] loaded module [transport-netty4]
+[2018-05-03T16:44:42,788][INFO ][o.e.p.PluginsService     ] [9cMfB9A] no plugins loaded
+[2018-05-03T16:44:45,193][INFO ][o.e.d.DiscoveryModule    ] [9cMfB9A] using discovery type [zen]
+[2018-05-03T16:44:46,294][INFO ][o.e.n.Node               ] initialized
+[2018-05-03T16:44:46,295][INFO ][o.e.n.Node               ] [9cMfB9A] starting ...
+[2018-05-03T16:44:46,819][INFO ][o.e.t.TransportService   ] [9cMfB9A] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-03T16:44:49,902][INFO ][o.e.c.s.ClusterService   ] [9cMfB9A] new_master {9cMfB9A}{9cMfB9AgSaSXXGCVbpTZQA}{HlvT6D84TEm2QfIS2GHO0g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-03T16:44:49,932][INFO ][o.e.h.n.Netty4HttpServerTransport] [9cMfB9A] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-03T16:44:49,932][INFO ][o.e.g.GatewayService     ] [9cMfB9A] recovered [0] indices into cluster_state
+[2018-05-03T16:44:49,934][INFO ][o.e.n.Node               ] [9cMfB9A] started
+[2018-05-03T16:44:57,465][INFO ][o.e.c.m.MetaDataCreateIndexService] [9cMfB9A] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-05-03T16:45:22,016][INFO ][o.e.c.m.MetaDataCreateIndexService] [9cMfB9A] [logstash-2018.05.04] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-03T16:45:22,064][INFO ][o.e.c.m.MetaDataCreateIndexService] [9cMfB9A] [logstash-2018.04.27] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-03T16:45:22,091][INFO ][o.e.c.m.MetaDataCreateIndexService] [9cMfB9A] [logstash-2018.05.02] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-03T16:45:22,124][INFO ][o.e.c.m.MetaDataCreateIndexService] [9cMfB9A] [logstash-2018.05.05] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-03T16:45:22,892][INFO ][o.e.c.m.MetaDataMappingService] [9cMfB9A] [logstash-2018.05.02/Cc-oLLxVTca_YfiEw6B1Hw] create_mapping [log]
+[2018-05-03T16:45:22,926][INFO ][o.e.c.m.MetaDataMappingService] [9cMfB9A] [logstash-2018.05.02/Cc-oLLxVTca_YfiEw6B1Hw] update_mapping [log]
+[2018-05-03T16:45:23,042][INFO ][o.e.c.m.MetaDataMappingService] [9cMfB9A] [logstash-2018.04.27/Md0rARfHQe2dRL0wqetf8A] create_mapping [log]
+[2018-05-03T16:45:23,054][INFO ][o.e.c.m.MetaDataMappingService] [9cMfB9A] [logstash-2018.04.27/Md0rARfHQe2dRL0wqetf8A] update_mapping [log]
+[2018-05-03T16:45:23,120][INFO ][o.e.c.m.MetaDataMappingService] [9cMfB9A] [logstash-2018.05.04/bWFUYK4UTc2U7uFTAr3few] create_mapping [log]
+[2018-05-03T16:45:23,175][INFO ][o.e.c.m.MetaDataMappingService] [9cMfB9A] [logstash-2018.05.04/bWFUYK4UTc2U7uFTAr3few] update_mapping [log]
+[2018-05-03T16:45:23,208][INFO ][o.e.c.m.MetaDataMappingService] [9cMfB9A] [logstash-2018.05.05/R4kZa5p_RPOpMvueuzV-ug] create_mapping [log]
+[2018-05-03T16:45:23,384][INFO ][o.e.c.m.MetaDataMappingService] [9cMfB9A] [logstash-2018.05.05/R4kZa5p_RPOpMvueuzV-ug] update_mapping [log]
+[2018-05-03T16:46:02,074][INFO ][o.e.n.Node               ] [9cMfB9A] stopping ...
+[2018-05-03T16:46:02,420][INFO ][o.e.n.Node               ] [9cMfB9A] stopped
+[2018-05-03T16:46:02,420][INFO ][o.e.n.Node               ] [9cMfB9A] closing ...
+[2018-05-03T16:46:02,430][INFO ][o.e.n.Node               ] [9cMfB9A] closed
+[2018-05-03T16:46:18,092][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-03T16:46:18,211][INFO ][o.e.e.NodeEnvironment    ] [dt-k_Kp] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [354.4gb], net total_space [465.7gb], spins? [unknown], types [apfs]
+[2018-05-03T16:46:18,212][INFO ][o.e.e.NodeEnvironment    ] [dt-k_Kp] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-03T16:46:18,214][INFO ][o.e.n.Node               ] node name [dt-k_Kp] derived from node ID [dt-k_KpCS86JC2si_FJa6A]; set [node.name] to override
+[2018-05-03T16:46:18,214][INFO ][o.e.n.Node               ] version[5.4.3], pid[94076], build[eed30a8/2017-06-22T00:34:03.743Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_161/25.161-b12]
+[2018-05-03T16:46:18,215][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/azuga/elk/5_4_3/elasticsearch-5.4.3]
+[2018-05-03T16:46:19,864][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [aggs-matrix-stats]
+[2018-05-03T16:46:19,865][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [ingest-common]
+[2018-05-03T16:46:19,865][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [lang-expression]
+[2018-05-03T16:46:19,866][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [lang-groovy]
+[2018-05-03T16:46:19,866][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [lang-mustache]
+[2018-05-03T16:46:19,866][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [lang-painless]
+[2018-05-03T16:46:19,866][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [percolator]
+[2018-05-03T16:46:19,866][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [reindex]
+[2018-05-03T16:46:19,867][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [transport-netty3]
+[2018-05-03T16:46:19,867][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] loaded module [transport-netty4]
+[2018-05-03T16:46:19,868][INFO ][o.e.p.PluginsService     ] [dt-k_Kp] no plugins loaded
+[2018-05-03T16:46:21,886][INFO ][o.e.d.DiscoveryModule    ] [dt-k_Kp] using discovery type [zen]
+[2018-05-03T16:46:22,708][INFO ][o.e.n.Node               ] initialized
+[2018-05-03T16:46:22,708][INFO ][o.e.n.Node               ] [dt-k_Kp] starting ...
+[2018-05-03T16:46:23,054][INFO ][o.e.t.TransportService   ] [dt-k_Kp] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.2:9300}, {127.94.0.1:9300}
+[2018-05-03T16:46:26,120][INFO ][o.e.c.s.ClusterService   ] [dt-k_Kp] new_master {dt-k_Kp}{dt-k_KpCS86JC2si_FJa6A}{kZwCkdeeRCCTfTpQ2_YWyQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-03T16:46:26,169][INFO ][o.e.g.GatewayService     ] [dt-k_Kp] recovered [0] indices into cluster_state
+[2018-05-03T16:46:26,192][INFO ][o.e.h.n.Netty4HttpServerTransport] [dt-k_Kp] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.2:9200}, {127.94.0.1:9200}
+[2018-05-03T16:46:26,197][INFO ][o.e.n.Node               ] [dt-k_Kp] started
+[2018-05-03T16:46:33,807][INFO ][o.e.c.m.MetaDataCreateIndexService] [dt-k_Kp] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-05-03T16:46:52,109][INFO ][o.e.c.m.MetaDataCreateIndexService] [dt-k_Kp] [logstash-2018.04.27] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-03T16:46:52,178][INFO ][o.e.c.m.MetaDataCreateIndexService] [dt-k_Kp] [logstash-2018.05.02] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-03T16:46:52,237][INFO ][o.e.c.m.MetaDataCreateIndexService] [dt-k_Kp] [logstash-2018.05.04] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-03T16:46:52,754][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [logstash-2018.05.02/81dlxbNJRGetcjlk3FBrXw] create_mapping [log]
+[2018-05-03T16:46:52,766][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [logstash-2018.04.27/2ZNT7QoxQRqdGISjCI4QNQ] create_mapping [log]
+[2018-05-03T16:46:52,886][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [logstash-2018.04.27/2ZNT7QoxQRqdGISjCI4QNQ] update_mapping [log]
+[2018-05-03T16:46:53,494][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [logstash-2018.05.04/PN3fUWhiSoCHghi3WcBz7w] create_mapping [log]
+[2018-05-03T16:46:53,515][INFO ][o.e.c.m.MetaDataCreateIndexService] [dt-k_Kp] [logstash-2018.05.05] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-05-03T16:46:53,803][INFO ][o.e.m.j.JvmGcMonitorService] [dt-k_Kp] [gc][31] overhead, spent [298ms] collecting in the last [1s]
+[2018-05-03T16:46:53,926][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [logstash-2018.05.04/PN3fUWhiSoCHghi3WcBz7w] update_mapping [log]
+[2018-05-03T16:46:54,023][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [logstash-2018.05.05/VJsndM9AQxSiHGfXiBKpzg] create_mapping [log]
+[2018-05-03T16:46:54,077][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [logstash-2018.05.05/VJsndM9AQxSiHGfXiBKpzg] update_mapping [log]
+[2018-05-03T16:47:10,531][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [.kibana/IXvg45wQQbOFMAkBEURhvw] create_mapping [index-pattern]
+[2018-05-03T16:47:11,219][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [.kibana/IXvg45wQQbOFMAkBEURhvw] update_mapping [config]
+[2018-05-03T16:47:13,616][INFO ][o.e.c.m.MetaDataMappingService] [dt-k_Kp] [.kibana/IXvg45wQQbOFMAkBEURhvw] create_mapping [search]

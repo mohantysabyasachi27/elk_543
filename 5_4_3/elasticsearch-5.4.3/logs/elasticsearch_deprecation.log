@@ -1,0 +1,935 @@
+[2018-05-02T15:35:40,188][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-02T15:36:29,100][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:36:29,710][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:36:29,916][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:36:30,118][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:36:30,668][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:36:31,141][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:36:31,344][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:36:31,514][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:43:28,062][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T15:43:28,085][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T15:45:09,228][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:45:11,686][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:45:12,218][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:45:12,410][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:45:12,627][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:45:13,204][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:49,119][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:51,099][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:51,844][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:52,102][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:52,286][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:52,492][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:52,684][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:52,890][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:53,822][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:58:54,017][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:59:30,477][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:59:31,171][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:59:31,366][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:59:33,511][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:59:34,259][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:59:35,544][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T15:59:35,544][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-02T15:59:35,548][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-02T15:59:35,549][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-02T15:59:35,549][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-02T15:59:35,549][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-02T15:59:35,551][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T15:59:35,551][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-02T15:59:35,552][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-02T15:59:35,552][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-02T15:59:35,553][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-02T15:59:35,553][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-02T15:59:35,810][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T15:59:40,310][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T15:59:40,311][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T15:59:40,311][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-02T15:59:40,311][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-02T15:59:40,311][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T15:59:40,313][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T15:59:40,313][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T15:59:40,313][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-02T15:59:40,314][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-02T15:59:40,314][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T16:06:45,517][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-02T16:07:33,091][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T16:07:34,037][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T16:07:34,197][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T16:07:37,351][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T16:07:37,352][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-02T16:07:37,355][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-02T16:07:37,355][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-02T16:07:37,356][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-02T16:07:37,356][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-02T16:07:37,359][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T16:07:37,359][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-02T16:07:37,360][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-02T16:07:37,360][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-02T16:07:37,361][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-02T16:07:37,361][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-02T16:07:37,674][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T16:07:49,922][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T16:07:52,105][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T16:07:52,106][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [visState]
+[2018-05-02T16:07:52,106][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-02T16:07:52,107][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T16:07:52,107][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [savedSearchId]
+[2018-05-02T16:07:52,107][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T16:07:52,109][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T16:07:52,110][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [visState]
+[2018-05-02T16:07:52,110][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-02T16:07:52,110][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T16:07:52,111][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [savedSearchId]
+[2018-05-02T16:07:52,111][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T16:07:54,556][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T16:07:54,558][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T16:07:54,559][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-02T16:07:54,560][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-02T16:07:54,560][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T16:07:54,562][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T16:07:54,562][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T16:07:54,563][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-02T16:07:54,563][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-02T16:07:54,564][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T16:11:52,295][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T16:11:52,308][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T16:58:39,863][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-02T16:59:35,314][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T16:59:35,327][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,557][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,561][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,580][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,581][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,690][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,690][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,691][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,691][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,703][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,703][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,724][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,724][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,728][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,728][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,733][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,734][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,742][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,743][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,750][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,750][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,758][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,759][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,764][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,764][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,773][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:30,774][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-02T17:16:45,766][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T17:16:47,176][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T17:16:53,737][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T17:16:53,738][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-02T17:16:53,741][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-02T17:16:53,742][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-02T17:16:53,742][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-02T17:16:53,743][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-02T17:16:53,746][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T17:16:53,746][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-02T17:16:53,747][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-02T17:16:53,747][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-02T17:16:53,748][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-02T17:16:53,749][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-02T17:16:54,003][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-02T17:16:58,215][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T17:16:58,216][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T17:16:58,216][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-02T17:16:58,217][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-02T17:16:58,217][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T17:16:58,221][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T17:16:58,222][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T17:16:58,223][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-02T17:16:58,223][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-02T17:16:58,224][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T17:19:06,791][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:06,793][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:17,105][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:17,106][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:19,284][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:19,286][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:20,909][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:20,909][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:27,530][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:27,532][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:32,031][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:32,032][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:33,431][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:33,432][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:34,398][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:34,399][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:35,445][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:35,446][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:37,192][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:19:37,194][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:21:11,877][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:21:11,880][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:21:15,852][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:21:15,853][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:21:17,734][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:21:17,735][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:08,508][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:08,511][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:10,396][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:10,397][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:10,899][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:10,900][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:11,069][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:11,069][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:11,240][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:11,241][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:11,389][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:11,390][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:11,556][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:11,556][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:33,822][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:33,824][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:34,036][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:34,037][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:34,243][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:34,244][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:34,441][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:34,442][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:34,641][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:22:34,642][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-02T17:32:28,506][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T17:32:28,508][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [visState]
+[2018-05-02T17:32:28,509][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-02T17:32:28,509][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T17:32:28,510][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [savedSearchId]
+[2018-05-02T17:32:28,510][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T17:32:28,511][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-02T17:32:28,512][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [visState]
+[2018-05-02T17:32:28,512][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-02T17:32:28,513][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-02T17:32:28,513][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [savedSearchId]
+[2018-05-02T17:32:28,514][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-02T17:32:41,609][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T11:21:41,797][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:21:41,817][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:21:41,874][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:21:41,875][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:21:41,982][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:21:41,983][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:21:41,985][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:21:41,986][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,131][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,132][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,143][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,143][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,220][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,221][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,251][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,252][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,254][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,254][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,257][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,257][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,265][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:23:37,265][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:24:36,060][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:24:36,061][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:24:36,064][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:24:36,064][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:24:36,078][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:24:36,079][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:25:28,609][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T11:25:28,612][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T11:25:28,612][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [panelsJSON]
+[2018-05-03T11:25:28,613][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [optionsJSON]
+[2018-05-03T11:25:28,613][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-03T11:25:28,614][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeTo]
+[2018-05-03T11:25:28,614][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFrom]
+[2018-05-03T11:25:28,615][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [display]
+[2018-05-03T11:25:28,615][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T11:25:28,617][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T11:25:28,618][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T11:25:28,618][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [panelsJSON]
+[2018-05-03T11:25:28,619][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [optionsJSON]
+[2018-05-03T11:25:28,619][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-03T11:25:28,620][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeTo]
+[2018-05-03T11:25:28,620][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFrom]
+[2018-05-03T11:25:28,621][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [display]
+[2018-05-03T11:25:28,621][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T11:25:30,193][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T11:25:30,193][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T11:25:30,193][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_sheet]
+[2018-05-03T11:25:30,195][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_interval]
+[2018-05-03T11:25:30,196][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_other_interval]
+[2018-05-03T11:25:30,197][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T11:25:30,202][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T11:25:30,202][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T11:25:30,202][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_sheet]
+[2018-05-03T11:25:30,203][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_interval]
+[2018-05-03T11:25:30,203][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_other_interval]
+[2018-05-03T11:25:30,203][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T11:25:30,396][WARN ][o.e.d.i.q.QueryParseContext] query malformed, empty clause found at [1:143]
+[2018-05-03T11:25:53,787][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T11:50:57,654][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:50:57,657][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:50:57,660][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:50:57,660][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:50:57,674][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:50:57,675][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,372][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,373][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,384][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,385][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,465][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,467][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,475][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,475][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,477][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,477][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,479][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,480][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,483][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T11:51:31,484][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,154][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,157][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,173][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,173][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,250][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,252][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,264][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,264][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,267][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,267][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,270][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,271][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,276][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:25:03,276][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,462][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,464][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,473][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,473][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,536][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,536][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,538][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,539][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,546][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,546][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,561][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,562][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,566][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,567][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,568][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,569][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,578][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,578][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,578][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,578][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,580][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,580][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,582][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,583][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,588][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,588][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,600][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,601][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,603][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,603][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,610][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,611][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,618][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:27:53,620][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T12:28:48,204][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:28:48,206][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:28:48,922][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:28:48,923][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:28:48,924][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:28:48,924][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:29:25,681][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:29:25,683][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:29:25,683][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:29:25,683][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:49:01,426][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:49:01,429][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:49:27,838][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:49:27,839][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:52:41,250][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:52:41,253][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:52:58,399][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T12:52:58,400][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-03T13:02:29,501][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,503][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,517][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,517][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,622][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,623][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,630][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,631][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,633][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,652][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,654][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,654][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,665][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:02:29,665][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:08:22,713][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-03T13:08:29,139][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:08:29,151][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,427][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,428][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,441][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,441][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,547][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,548][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,622][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,623][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,766][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,766][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,767][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,767][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,794][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,795][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,799][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,799][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,804][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,805][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,817][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,817][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,821][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,822][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,826][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,826][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,838][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,839][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,852][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T13:09:09,852][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:54,961][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:54,966][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:54,982][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:54,983][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,121][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,126][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,140][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,140][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,142][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,142][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,151][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,151][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,185][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,185][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,207][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,207][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,280][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,280][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,282][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,282][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,293][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,293][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,295][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,295][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,297][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,298][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,309][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,313][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,319][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,319][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,334][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,335][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,343][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,344][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,393][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,393][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,395][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,396][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,420][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,421][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,465][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,470][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,469][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,469][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,471][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,471][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,471][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,484][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,486][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,486][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,533][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,533][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,550][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,550][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,557][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,558][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,561][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,562][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,593][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,593][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,597][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,597][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,604][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,604][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,617][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,618][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,630][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,630][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,634][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,634][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,642][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,643][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,664][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,664][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,668][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,670][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,671][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,671][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,676][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,676][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,678][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,678][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,679][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,679][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,681][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,682][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,686][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,686][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,696][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,697][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,698][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,699][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,702][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,702][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,705][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,706][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,710][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,711][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,714][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,714][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,719][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,719][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,724][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:37:55,725][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T14:38:27,480][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:29,382][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:30,094][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:30,266][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:30,456][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:30,645][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:30,849][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:31,021][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:31,199][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:35,443][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T14:38:35,445][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-03T14:38:35,449][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-03T14:38:35,449][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-03T14:38:35,450][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-03T14:38:35,451][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-03T14:38:35,453][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T14:38:35,454][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-03T14:38:35,454][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-03T14:38:35,455][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-03T14:38:35,455][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-03T14:38:35,455][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-03T14:38:35,729][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T14:38:38,234][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T14:38:38,235][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T14:38:38,236][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-03T14:38:38,237][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-03T14:38:38,237][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T14:38:38,239][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T14:38:38,239][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T14:38:38,239][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-03T14:38:38,240][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-03T14:38:38,240][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T14:39:23,246][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T14:39:23,247][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [visState]
+[2018-05-03T14:39:23,248][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-03T14:39:23,248][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T14:39:23,248][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [savedSearchId]
+[2018-05-03T14:39:23,249][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T14:39:23,252][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T14:39:23,252][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [visState]
+[2018-05-03T14:39:23,253][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-03T14:39:23,254][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T14:39:23,254][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [savedSearchId]
+[2018-05-03T14:39:23,255][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T14:40:25,838][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T14:40:25,841][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T14:40:25,842][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [panelsJSON]
+[2018-05-03T14:40:25,844][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [optionsJSON]
+[2018-05-03T14:40:25,844][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-03T14:40:25,846][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeTo]
+[2018-05-03T14:40:25,847][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFrom]
+[2018-05-03T14:40:25,851][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [display]
+[2018-05-03T14:40:25,853][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T14:40:25,856][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T14:40:25,856][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T14:40:25,858][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [panelsJSON]
+[2018-05-03T14:40:25,858][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [optionsJSON]
+[2018-05-03T14:40:25,859][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-03T14:40:25,860][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeTo]
+[2018-05-03T14:40:25,863][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFrom]
+[2018-05-03T14:40:25,866][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [display]
+[2018-05-03T14:40:25,869][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T16:13:32,270][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-03T16:26:03,581][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:03,596][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:50,889][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:50,891][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,243][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,249][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,287][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,288][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,317][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,317][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,425][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,425][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,427][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,427][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,428][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,428][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,429][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,428][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,455][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,455][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,461][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,462][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,468][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,468][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,475][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,476][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,480][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,481][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,490][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,491][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,495][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,496][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,501][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,502][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,510][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,510][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,514][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,514][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,537][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,537][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,549][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,550][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,613][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,613][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,712][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,712][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,741][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,743][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,775][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,775][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,778][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,778][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,868][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,869][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,883][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,886][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,904][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,904][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,920][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,921][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,924][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:51,924][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,103][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,111][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,174][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,175][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,296][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,297][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,363][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,363][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,484][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,484][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,494][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,494][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,500][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,500][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,517][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,517][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,532][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,533][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,540][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,540][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,543][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,543][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,549][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,549][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,558][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,558][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,564][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,564][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,569][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,569][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,576][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,576][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,598][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,598][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,598][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,598][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,602][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,602][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,611][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,615][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,618][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,618][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,621][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,622][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,626][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,626][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,635][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,636][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,639][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,639][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,645][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,646][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,668][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,669][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,684][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,684][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,691][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,692][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,698][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,698][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,704][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,704][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,709][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,711][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,752][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,755][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,775][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,776][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,786][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,788][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,796][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:26:52,796][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-03T16:44:57,441][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-03T16:46:33,788][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-03T16:47:05,673][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T16:47:10,509][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T16:47:10,510][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-03T16:47:10,512][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-03T16:47:10,513][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-03T16:47:10,513][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-03T16:47:10,514][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-03T16:47:10,522][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T16:47:10,522][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-03T16:47:10,523][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-03T16:47:10,523][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-03T16:47:10,524][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-03T16:47:10,528][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-03T16:47:10,801][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-03T16:47:13,607][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T16:47:13,608][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T16:47:13,609][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-03T16:47:13,610][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-03T16:47:13,610][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-03T16:47:13,612][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-03T16:47:13,613][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-03T16:47:13,613][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-03T16:47:13,613][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-03T16:47:13,614][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-07T15:22:03,678][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:22:03,772][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,317][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,318][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,410][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,411][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,649][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,650][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,705][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,707][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,715][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,716][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,721][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,724][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,739][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:01,740][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-07T15:23:36,940][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-07T15:24:51,640][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-07T15:24:51,643][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-07T15:24:51,643][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [panelsJSON]
+[2018-05-07T15:24:51,644][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [optionsJSON]
+[2018-05-07T15:24:51,644][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-07T15:24:51,647][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeTo]
+[2018-05-07T15:24:51,648][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFrom]
+[2018-05-07T15:24:51,648][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [display]
+[2018-05-07T15:24:51,649][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-07T15:24:51,652][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-07T15:24:51,653][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-07T15:24:51,653][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [panelsJSON]
+[2018-05-07T15:24:51,653][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [optionsJSON]
+[2018-05-07T15:24:51,654][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-07T15:24:51,654][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeTo]
+[2018-05-07T15:24:51,655][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFrom]
+[2018-05-07T15:24:51,655][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [display]
+[2018-05-07T15:24:51,656][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-07T15:25:55,419][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-07T15:27:00,496][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-07T15:27:01,916][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-07T15:27:01,916][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-07T15:27:01,921][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-07T15:27:01,921][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-07T15:27:01,921][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-07T15:27:01,922][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-07T15:27:01,924][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-07T15:27:01,925][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-07T15:27:01,925][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-07T15:27:01,925][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-07T15:27:01,926][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-07T15:27:01,926][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-07T15:27:02,206][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-07T15:27:09,926][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-07T15:27:09,926][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-07T15:27:09,927][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-07T15:27:09,927][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-07T15:27:09,927][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-07T15:27:09,929][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-07T15:27:09,932][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-07T15:27:09,933][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-07T15:27:09,934][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-07T15:27:09,934][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-07T15:27:18,533][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-23T16:26:52,047][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:26:52,057][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:02,919][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:02,919][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:02,932][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:02,932][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,203][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,204][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,265][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,266][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,268][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,269][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,272][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,272][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,282][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-23T16:32:03,283][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T11:57:45,157][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T11:57:45,158][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T11:57:45,168][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T11:57:45,169][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T11:57:45,294][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T11:57:45,295][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T11:57:45,297][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T11:57:45,297][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,679][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,680][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,695][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,696][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,901][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,901][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,968][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,969][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,973][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,974][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,980][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:21,987][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:22,006][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:05:22,006][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:09:57,208][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [buildNum]
+[2018-05-28T12:11:41,034][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-28T12:11:46,636][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:11:46,636][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-28T12:11:46,638][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-28T12:11:46,639][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-28T12:11:46,639][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-28T12:11:46,640][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-28T12:11:46,644][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:11:46,645][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFieldName]
+[2018-05-28T12:11:46,645][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [intervalName]
+[2018-05-28T12:11:46,646][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fields]
+[2018-05-28T12:11:46,646][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sourceFilters]
+[2018-05-28T12:11:46,648][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [fieldFormatMap]
+[2018-05-28T12:11:46,927][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-28T12:11:54,647][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-28T12:11:55,909][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:11:55,910][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-28T12:11:55,910][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-28T12:11:55,910][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-28T12:11:55,911][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-28T12:11:55,912][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:11:55,913][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-28T12:11:55,913][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [columns]
+[2018-05-28T12:11:55,913][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [sort]
+[2018-05-28T12:11:55,914][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-28T12:12:01,150][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:12:01,150][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-28T12:12:01,152][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_sheet]
+[2018-05-28T12:12:01,153][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_interval]
+[2018-05-28T12:12:01,154][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_other_interval]
+[2018-05-28T12:12:01,154][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-28T12:12:01,156][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:12:01,157][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-28T12:12:01,158][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_sheet]
+[2018-05-28T12:12:01,158][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_interval]
+[2018-05-28T12:12:01,158][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timelion_other_interval]
+[2018-05-28T12:12:01,159][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-28T12:12:01,404][WARN ][o.e.d.i.q.QueryParseContext] query malformed, empty clause found at [1:143]
+[2018-05-28T12:12:14,677][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-28T12:12:38,564][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:12:38,565][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-28T12:12:38,566][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [panelsJSON]
+[2018-05-28T12:12:38,567][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [optionsJSON]
+[2018-05-28T12:12:38,567][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-28T12:12:38,568][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeTo]
+[2018-05-28T12:12:38,569][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFrom]
+[2018-05-28T12:12:38,571][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [display]
+[2018-05-28T12:12:38,571][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-28T12:12:38,573][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:12:38,574][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-28T12:12:38,574][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [panelsJSON]
+[2018-05-28T12:12:38,575][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [optionsJSON]
+[2018-05-28T12:12:38,575][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-28T12:12:38,575][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeTo]
+[2018-05-28T12:12:38,576][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [timeFrom]
+[2018-05-28T12:12:38,577][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [display]
+[2018-05-28T12:12:38,578][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-28T12:13:06,208][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:13:06,209][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [visState]
+[2018-05-28T12:13:06,209][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-28T12:13:06,210][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-28T12:13:06,216][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [savedSearchId]
+[2018-05-28T12:13:06,217][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-28T12:13:06,218][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [title]
+[2018-05-28T12:13:06,220][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [visState]
+[2018-05-28T12:13:06,222][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [uiStateJSON]
+[2018-05-28T12:13:06,223][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [description]
+[2018-05-28T12:13:06,223][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [savedSearchId]
+[2018-05-28T12:13:06,224][WARN ][o.e.d.i.m.StringFieldMapper$TypeParser] The [string] field is deprecated, please use [text] or [keyword] instead on [searchSourceJSON]
+[2018-05-28T12:26:11,670][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:26:11,682][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-28T12:29:45,130][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-29T15:17:39,858][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:39,868][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:39,982][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:39,983][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,088][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,089][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,116][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,116][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,120][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,120][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,123][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,124][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,133][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:17:40,133][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-29T15:18:54,428][WARN ][o.e.d.r.a.RestFieldStatsAction] [_field_stats] endpoint is deprecated! Use [_field_caps] instead or run a min/max aggregations on the desired fields.
+[2018-05-29T15:24:02,857][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-29T15:24:02,861][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-29T15:24:46,858][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-29T15:24:46,860][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-29T15:25:08,668][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-29T15:25:08,670][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-29T15:25:19,094][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-29T15:25:19,095][WARN ][o.e.d.c.ParseField       ] Deprecated field [type] used, replaced by [match_phrase and match_phrase_prefix query]
+[2018-05-31T14:59:57,994][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-31T14:59:57,995][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-31T14:59:58,010][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-31T14:59:58,010][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-31T14:59:58,219][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-31T14:59:58,220][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-31T14:59:58,222][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
+[2018-05-31T14:59:58,222][WARN ][o.e.d.i.m.TypeParsers    ] field [include_in_all] is deprecated, as [_all] is deprecated, and will be disallowed in 6.0, use [copy_to] instead.
